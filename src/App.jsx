@@ -8,6 +8,7 @@ import ServiceSection from './components/CardsService/ServiceSection.jsx'
 import MktSection from './components/MarketplaceSection/MktSection.jsx'
 import WebDesenTexto from './components/WebSection/WebDesen.jsx'
 import SectionContabel from './components/ContabilidadeSection/SectionContabel.jsx'
+import SectionSobre from './components/SobreNos/SectionSobre.jsx'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
     <MktSection/>
     <WebDesenTexto/>
     <SectionContabel/>
+    <SectionSobre/>
     
     
     
