@@ -25,9 +25,8 @@ function SectionContabel() {
           <p className="!max-w-[560px] !w-auto !text-left !m-0">
             Nossa contabilidade estratégica vai além dos números – ela revela
             oportunidades, otimiza tributos e acelera decisões inteligentes.
-          </p>
-          <p className="!max-w-[560px] !w-auto !text-left !m-0 mt-2">
-            Transformamos dados em <span className="destaque">PODER DE DECISÃO.</span>
+            Transformamos dados em{" "}
+            <span className="destaque">PODER DE DECISÃO.</span>
           </p>
         </article>
 
@@ -40,3 +39,4 @@ function SectionContabel() {
 }
 
 export default SectionContabel;
+
