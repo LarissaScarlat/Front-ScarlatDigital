@@ -14,7 +14,7 @@ function NavBar() {
         />
 
         {/* Links */}
-        <nav className=" gap-6">
+        <nav className="flex items-center gap-6">
           <a href="#">Planilhas</a>
           <a href="#">Inicio</a>
           <a href="#">Mentoria</a>

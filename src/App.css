@@ -3,12 +3,16 @@
 
 /*SERIA TODO LAYOUT DOS COMPONENTES, COMO CORES, FONTE, TAMANHO, ETC. */
 
-html, body { 
+
+html, body {
+  margin: 0;
+  padding: 0;
   background: #140C00;
   height: 100%;
-  overflow-y: auto;    /* body rola */
-  overflow-x: hidden;  /* sem rolagem horizontal */
+  overflow-y: auto;
+  overflow-x: hidden;
 }
+
 #root {
   min-height: 100%;
 }
