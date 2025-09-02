@@ -4,11 +4,13 @@
 /*SERIA TODO LAYOUT DOS COMPONENTES, COMO CORES, FONTE, TAMANHO, ETC. */
 
 
+
 html, body { 
   background: #140C00;
   height: 100%;
   overflow-y: auto;    /* body rola */
   overflow-x: hidden;  /* sem rolagem horizontal */
+  
 }
 #root {
   min-height: 100%;
@@ -61,7 +63,6 @@ strong {
 p {
     width: 945px;
     color: var(--second-text, #9F9F9F);
-    text-align: center;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;

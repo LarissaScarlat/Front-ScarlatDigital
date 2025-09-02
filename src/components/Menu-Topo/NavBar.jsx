@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/Logotipo/LOGO.png";
+
 function NavBar() {
   return (
     <header className="fixed top-0 inset-x-0 z-50">

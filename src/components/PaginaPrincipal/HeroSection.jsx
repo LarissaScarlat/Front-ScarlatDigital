@@ -9,12 +9,12 @@ function HeroSection() {
      
       <div className="hero-content">
           <div class="flex justify-center ...">
-                  <article class="text-wrap">
+                  <article class="text-wrap space-y-16">
                       <h1>Transoforme seu negócio em uma</h1>
                       <h1>Maquina de vendas no digital</h1>
                     </article>
           </div>
-              <div class="flex justify-center ...">
+              <div class="flex justify-center space-y-24">
                       <p>
                         O <strong>Grupo Scarlat Digital</strong> é a solução completa que empresas
                                 visionárias escolhem para dominar o mercado digital. 
@@ -25,7 +25,7 @@ function HeroSection() {
           <br></br>
 
   
-                  <div class="flex justify-center ...">
+                  <div class="flex justify-center space-y-40">
                             <ButtonUni>Falar com Especialista</ButtonUni>
                             
                   </div>
