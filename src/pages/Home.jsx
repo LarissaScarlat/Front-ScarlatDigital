@@ -6,6 +6,7 @@ import HeroSection from "../components/PaginaPrincipal/HeroSection.jsx";
 import LogosSection from "../components/Simbolos/LogosSection.jsx";
 import ServiceSection from "../components/CardsService/ServiceSection.jsx";
 import MktSection from "../components/MarketplaceSection/MktSection.jsx";
+import WebDesenTexto from "../components/WebSection/WebDesen.jsx";
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
         <LogosSection />
         <ServiceSection />
         <MktSection />
+        <WebDesenTexto />
      
     </>
   );
