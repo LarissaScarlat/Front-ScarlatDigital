@@ -1,83 +1,37 @@
-"use client"
+import { BarChart, Bar, XAxis, Tooltip, ResponsiveContainer } from "recharts";
 
+const data = [
+  { name: "Abr", value: 20 },
+  { name: "Mai", value: 28 },
+  { name: "Jun", value: 25 },
+  { name: "Jul", value: 32 },
+  { name: "Ago", value: 41 },
+];
 
-import { TrendingUp } from "lucide-react"
-import { Bar, BarChart, CartesianGrid, XAxis } from "recharts"
-
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card.jsx"
-import {
-  ChartConfig,
-  ChartContainer,
-  ChartTooltip,
-  ChartTooltipContent,
-} from "@/components/ui/chart"
-
-export const description = "A bar chart"
-
-const chartData = [
-  { month: "January", desktop: 186 },
-  { month: "February", desktop: 305 },
-  { month: "March", desktop: 237 },
-  { month: "April", desktop: 73 },
-  { month: "May", desktop: 209 },
-  { month: "June", desktop: 214 },
-]
-
-const chartConfig = {
-  desktop: {
-    label: "Desktop",
-    color: "var(--chart-1)",
-  },
-}
-
-export function ChartBarDefault() {
+export default function SalesChart() {
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>Bar Chart</CardTitle>
-        <CardDescription>January - June 2024</CardDescription>
-      </CardHeader>
-      <CardContent>
-        <ChartContainer config={chartConfig}>
-          <BarChart accessibilityLayer data={chartData}>
-            <CartesianGrid vertical={false} />
-            <XAxis
-              dataKey="month"
-              tickLine={false}
-              tickMargin={10}
-              axisLine={false}
-              tickFormatter={(value) => value.slice(0, 3)}
-            />
-            <ChartTooltip
-              cursor={false}
-              content={<ChartTooltipContent hideLabel />}
-            />
-            <Bar dataKey="desktop" fill="var(--color-desktop)" radius={8} />
-          </BarChart>
-        </ChartContainer>
-      </CardContent>
-      <CardFooter className="flex-col items-start gap-2 text-sm">
-        <div className="flex gap-2 leading-none font-medium">
-          Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
-        </div>
-        <div className="text-muted-foreground leading-none">
-          Showing total visitors for the last 6 months
-        </div>
-      </CardFooter>
-    </Card>
-  )
+    <div className="w-full h-64 bg-black rounded-2xl p-4">
+      <h2 className="text-gray-200 text-lg mb-4">Vendas realizadas</h2>
+      <ResponsiveContainer width="100%" height="100%">
+        <BarChart data={data}>
+          <XAxis dataKey="name" stroke="#aaa" />
+          <Tooltip
+            contentStyle={{
+              backgroundColor: "#1c1c1c",
+              border: "none",
+              borderRadius: "8px",
+              color: "#fff",
+            }}
+          />
+          <Bar dataKey="value" fill="url(#colorGradient)" radius={[10, 10, 0, 0]} />
+          <defs>
+            <linearGradient id="colorGradient" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#5555ff" />
+              <stop offset="100%" stopColor="#111" />
+            </linearGradient>
+          </defs>
+        </BarChart>
+      </ResponsiveContainer>
+    </div>
+  );
 }
-// If you want to export ChartBarDefault as the default export:
-export default ChartBarDefault;
-
-// Or, if you intend to implement a Dashboard component, provide its body, for example:
-// export default function Dashboard() {
-//   return <ChartBarDefault />;
-// }
