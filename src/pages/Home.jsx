@@ -4,7 +4,7 @@ import TopoMenu from "../components/Menu-Topo/NavBar.jsx";
 import BotaoVerde from "../components/Simbolos/BotaoVerde.jsx";
 import HeroSection from "../components/PaginaPrincipal/HeroSection.jsx";
 import LogosSection from "../components/Simbolos/LogosSection.jsx";
-
+import ServiceSection from "../components/CardsService/ServiceSection.jsx";
 function Home() {
   return (
     <>
@@ -12,6 +12,7 @@ function Home() {
         <BotaoVerde />
         <HeroSection />
         <LogosSection />
+        <ServiceSection />
      
     </>
   );

@@ -36,7 +36,7 @@ function ServiceCard({ Icon, title, desc }) {
       role="group"
       aria-label={title}
     >
-      <div className="service-icon-pill">
+      <div className="service-icon-pill flex justify-center ">
         <Icon className="service-icon" color="#d1ad81" size={42} strokeWidth={1.8} />
       </div>
 
