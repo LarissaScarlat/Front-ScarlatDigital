@@ -36,12 +36,12 @@ function ServiceCard({ Icon, title, desc }) {
       role="group"
       aria-label={title}
     >
-      <div className="service-icon-pill flex justify-center ">
-        <Icon className="service-icon" color="#d1ad81" size={42} strokeWidth={1.8} />
+      <div className="service-icon-pill flex justify-center mx-auto items-center ">
+        <Icon className="service-icon " color="#d1ad81" size={42} strokeWidth={1.8} />
       </div>
 
-      <h3 className="service-title">{title}</h3>
-      <p className="service-desc">{desc}</p>
+      <h3 className="service-title text-center ">{title}</h3>
+      <p className="service-desc text-center ">{desc}</p>
     </article>
   );
 }
