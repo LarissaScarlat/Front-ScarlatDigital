@@ -25,6 +25,8 @@ function MktSection() {
             Seus produtos perdidos na multidão do marketplace?{" "}
             <span className="destaque">JAMAIS NOVAMENTE.</span>
           </p>
+          <br></br>
+          <br></br>
           <p className="!max-w-[560px] !w-auto !text-left !m-0 mt-2">
             Nossa estratégia proprietária posiciona sua marca no topo dos
             resultados, otimiza suas vendas e transforma visitantes em clientes

@@ -5,6 +5,9 @@ import BotaoVerde from "../components/Simbolos/BotaoVerde.jsx";
 import HeroSection from "../components/PaginaPrincipal/HeroSection.jsx";
 import LogosSection from "../components/Simbolos/LogosSection.jsx";
 import ServiceSection from "../components/CardsService/ServiceSection.jsx";
+import MktSection from "../components/MarketplaceSection/MktSection.jsx";
+
+
 function Home() {
   return (
     <>
@@ -13,6 +16,7 @@ function Home() {
         <HeroSection />
         <LogosSection />
         <ServiceSection />
+        <MktSection />
      
     </>
   );
