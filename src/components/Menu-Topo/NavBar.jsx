@@ -3,7 +3,7 @@ import Logo from "../../assets/Logotipo/LOGO.png";
 
 function NavBar() {
   return (
-    <header className="fixed top-0 inset-x-0 z-50">
+    <header className=" top-0 inset-x-0 z-50">
       <div className="flex justify-between items-center h-[120px] px-6 md:px-12 xl:px-[390px]">
         
         {/* Logo */}
