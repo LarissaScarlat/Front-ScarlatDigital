@@ -1,11 +1,8 @@
 {
-  "files": [],
+  // "files": ["src/index.js"], // Add file paths if needed, e.g. "files": ["src/index.js"]
   "references": [
-    {
-      "path": "./tsconfig.app.json"
-    }
     // Uncomment the following if tsconfig.node.json exists:
-    // ,{ "path": "./tsconfig.node.json" }
+    // { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
     "baseUrl": ".",

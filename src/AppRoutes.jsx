@@ -1,10 +1,9 @@
-// src/Routes.jsx
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
-import Home from './pages/Home.jsx';
-import Tech from './pages/Tech.jsx';
 
+import Home from "./pages/Home.jsx";
+import Tech from "./pages/Tech.jsx";
 
 function AppRoutes() {
   return (
