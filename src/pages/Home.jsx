@@ -9,6 +9,7 @@ import MktSection from "../components/MarketplaceSection/MktSection.jsx";
 import WebDesenTexto from "../components/WebSection/WebDesen.jsx";
 import SectionContabel from "../components/ContabilidadeSection/SectionContabel.jsx";
 import SectionSobre from "../components/SobreNos/SectionSobre.jsx";
+import Faq from "../components/Questions/Faq.jsx";
 
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
         <WebDesenTexto />
         <SectionContabel />
         <SectionSobre />
+        <Faq />
      
     </>
   );
