@@ -16,10 +16,10 @@ function Faq() {
         {/* Pergunta n° 1 */}
         <div className="w-[600px] ml-auto mr-[390px] ">
           <div className="flex items-center justify-between border-b border-neutral-700 py-4">
-            <p className="text-base text-neutral-50">
+            <p className="text-base text-neutral-50 ">
               Qual a diferença do Grupo Scarlat para outras agências?
             </p>
-            <Plus size={20} className="shrink-0 text-neutral-200" />
+            <Plus size={20} className="shrink-0 text-neutral-200 " />
           </div>
         </div>
         { /*Pergunta n° 2 */}
@@ -30,6 +30,7 @@ function Faq() {
             </p>
             <Plus size={20} className="shrink-0 text-neutral-200" />
           </div>
+          <p className=""> Sim. Dominamos Amazon, Mercado Livre, Shopee, Magazine Luiza, Casas Bahia e todos os principais marketplaces. Nossa expertise abrange desde otimização de produtos até gestão completa de vendas e logística. </p>
         </div>
         { /*Pergunta n° 3 */}
          <div className="w-[600px] ml-auto mr-[390px]">
