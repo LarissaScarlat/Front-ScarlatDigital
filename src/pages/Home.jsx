@@ -10,6 +10,8 @@ import WebDesenTexto from "../components/WebSection/WebDesen.jsx";
 import SectionContabel from "../components/ContabilidadeSection/SectionContabel.jsx";
 import SectionSobre from "../components/SobreNos/SectionSobre.jsx";
 import Faq from "../components/Questions/Faq.jsx";
+import DireitosSection from "../components/SobreNos/DireitosSection.jsx";
+
 
 
 function Home() {
@@ -25,6 +27,7 @@ function Home() {
         <SectionContabel />
         <SectionSobre />
         <Faq />
+        <DireitosSection />
      
     </>
   );
