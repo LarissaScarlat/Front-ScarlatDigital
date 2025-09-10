@@ -11,19 +11,6 @@ function App() {
     <Home />
     <Tech />
     
-    
-    
-    
-    
-   
-    
-    
-    
-    
-    
-   
-  
-   
     </>
   )
 } 
