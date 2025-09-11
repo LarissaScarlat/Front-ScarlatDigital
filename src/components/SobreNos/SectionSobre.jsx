@@ -18,12 +18,12 @@ function SectionSobre() {
           <h2>resultado</h2>
         </article>
 <br></br>
-        <p className="!max-w-[560px] !w-auto !text-left !m-0 mt-2">
+        <p className="!max-w-[800px] !w-auto !text-left !m-0 mt-2">
           Somos mais que uma empresa de serviços digitais, 
           <span className="font-bold text-[#9F9F9F]"> SOMOS CATALISADORES DE TRANSFORMAÇÃO</span>
         </p>
       <br></br>
-        <p className="!max-w-[560px] !w-auto !text-left !m-0 mt-6">
+        <p className="!max-w-[850px] !w-auto !text-left !m-0 mt-6">
           O Grupo Scarlat Digital nasceu da visão de revolucionar como empresas crescem no ambiente digital. 
           Combinamos expertise técnica de ponta com estratégia comercial agressiva, criando 
           um ecossistema completo que acelera resultados e maximiza potencial.

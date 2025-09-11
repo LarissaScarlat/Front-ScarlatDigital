@@ -3,11 +3,11 @@ import ImgSection from "../../assets/Section/ImgSection.jpg";
 
 function ImgSobre() {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center">
       <img 
         src={ImgSection} 
         alt="Imagem Sobre Nós" 
-        className="w-[433px] h-[650px] object-cover rounded-lg" 
+        className="ml-[390px] w-[433px] h-[650px] object-cover rounded-lg" 
       />
     </div>
   );
